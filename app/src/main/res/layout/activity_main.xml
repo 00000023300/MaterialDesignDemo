@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <Button
+        android:id="@+id/Rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView的应用"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Coor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout的应用"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout的应用"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/Nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation的应用"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/Not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification的应用"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+</LinearLayout>
